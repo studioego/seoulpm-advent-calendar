@@ -25,14 +25,15 @@ sungdh86+git _at_ gmail.com
 그래서 한자 처리에 대한 내용을 찾다보니 Perl이란 언어에 대하여 관심을 가지게 되었습니다. 
 한자처리에 관심을 가지게 되니 한글처리에도 관심을 가지게 되었습니다.
 
-동아시아 언어의 전문가이면서 Noto Sans CJK 총책임자, CJKV Information Processing책의 저자이신 Ken Lunde(켄 런디) 박사님이 다음과 같은 내용을 어도비 블로그에 올렸습니다.
-한글 자모와 음절에 대한 테스트 및 옛 한글(Archaic Hangul)에 대한 유니코드 정의를 위해서 테스트를 한 것 같습니다.
+동아시아 언어의 전문가이며, [CJKV Information Processing][cjkv-information-processing-2nd-edition], [Understanding Japanese Information Processing(日本語情報処理)][understanding-japanese-information-processing]의 저자이신 [Ken Lunde(켄 런디)][ken-lunde] ([트위터][twitter-kenlunde]) 박사님이 어도비 블로그에 한글관련 내용을 올렸습니다.
+한글 자모와 음절에 대한 테스트 및 옛 한글(Archaic Hangul)에 대한 유니코드 정의를 위해서 테스트 내용을 블로그에 작성하셨더군요.
 - [Combining Jamo Test #1—Please Ignore][combining-jamo-test-1]
 - [Combining Jamo Test #2—Please Ignore][combining-jamo-test-2]
 - [Combining Jamo Test #3][combining-jamo-test-3]
 - [Source Han Sans Development: Archaic Hangul][source-han-sans-development-archaic-hangul]
+- [All 11,875 possible two-character combining jamo sequences (125 leading consonants and 95 vowels)][combining-jamo-sequences]
 
-위의 링크를 보고는 저는 유니코드에 정의된 현대 **한글**의 모든 글자를 출력해보자하는 생각을 해보게 되었습니다.
+저는 위의 링크를 보고는 유니코드에 정의된 현대 **한글**의 모든 글자를 출력해보자하는 생각을 해보게 되었습니다.
 
 이번에는 한글의 모든 문자를 출력하는 방법에 대하여 확인해볼까요? 
 
@@ -260,6 +261,7 @@ Perl 6가 UTF-8 인코딩을 기본 지원하는 것을 보니, 유니코드로 
 - [Combining Jamo Test #2—Please Ignore][combining-jamo-test-2]
 - [Combining Jamo Test #3][combining-jamo-test-3]
 - [Source Han Sans Development: Archaic Hangul][source-han-sans-development-archaic-hangul]
+- [All 11,875 possible two-character combining jamo sequences (125 leading consonants and 95 vowels)][combining-jamo-sequences]
 
 
 
@@ -281,6 +283,7 @@ Perl 6가 UTF-8 인코딩을 기본 지원하는 것을 보니, 유니코드로 
 [naver-helloworld-unicode1]:    http://d2.naver.com/helloworld/19187
 [naver-helloworld-unicode2]:    http://d2.naver.com/helloworld/76650
 [twitter-studioego]:            http://twitter.com/#!/studioego
+[twitter-kenlunde]:             http://twitter.com/#!/ken_lunde
 [unicode-adoption]:             http://www.unicode.org/consortium/adopted-characters.html#b5FB7
 [unicode-blog-unicode-90]:      http://blog.unicode.org/2016/06/announcing-unicode-standard-version-90.html
 [unicode-charts-unihan]:        http://www.unicode.org/charts/unihan.html
@@ -305,3 +308,7 @@ Perl 6가 UTF-8 인코딩을 기본 지원하는 것을 보니, 유니코드로 
 [combining-jamo-test-2]:        https://blogs.adobe.com/CCJKType/2016/11/combining-jamo-test-2-please-ignore.html
 [combining-jamo-test-3]:        http://blogs.adobe.com/CCJKType/2016/12/combining-jamo-test-3.html
 [source-han-sans-development-archaic-hangul]: https://blogs.adobe.com/CCJKType/2014/12/shs-development-archaic-hangul.html
+[combining-jamo-sequences]:     http://blogs.adobe.com/CCJKType/files/2016/11/combining-jamo-test-lv.html
+[ken-lunde]:  http://www.oreilly.com/pub/au/297
+[cjkv-information-processing-2nd-edition]: http://shop.oreilly.com/product/9780596514471.do
+[understanding-japanese-information-processing]: http://shop.oreilly.com/product/9781565920439.do
